@@ -1,0 +1,767 @@
+/********************************************************
+    NAV BAR
+ ********************************************************/
+
+#mainNav {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: transparent;
+    background-image: url("../assets/img/1px/1px_black_75a.png");
+}
+#mainNav .navbar-toggler {
+  padding: 0.75rem;
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 0.75rem;
+  color: #fff;
+  text-transform: uppercase;
+  background-color: #0572BA;
+  border: 0;
+}
+#mainNav .navbar-brand {
+  color: #fed136;
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 700;
+  letter-spacing: 0.0625em;
+  text-transform: uppercase;
+}
+#mainNav .navbar-brand img {
+  height: 2rem;
+}
+#mainNav .navbar-nav .nav-item .nav-link {
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 0.95rem;
+  color: #fff;
+  letter-spacing: 0.0625em;
+}
+#mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
+  color: #90C740;
+}
+
+@media (min-width: 992px) {
+  #mainNav {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    border: none;
+    background-color: transparent;
+    background-image: url("../assets/img/1px/1px_black_25a.png");
+    transition: padding-top 0.3s ease-in-out, padding-bottom 0.3s ease-in-out;
+  }
+  #mainNav .navbar-brand {
+    font-size: 1.5em;
+    transition: font-size 0.3s ease-in-out;
+  }
+  #mainNav .navbar-brand img {
+    height: 3rem;
+    transition: height 0.3s ease-in-out;
+  }
+  #mainNav.navbar-shrink {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: transparent;
+    background-image: url("../assets/img/1px/1px_black_75a.png");
+  }
+  #mainNav.navbar-shrink .navbar-brand {
+    font-size: 1.25em;
+  }
+  #mainNav.navbar-shrink .navbar-brand svg,
+#mainNav.navbar-shrink .navbar-brand img {
+    height: 2rem;
+  }
+  #mainNav .navbar-nav .nav-item {
+    margin-right: 1rem;
+  }
+  #mainNav .navbar-nav .nav-item:last-child {
+    margin-right: 0;
+  }
+}
+
+/********************************************************
+    HERO HEADER
+ ********************************************************/
+header.masthead {
+  padding-top: 5.5rem;
+  padding-bottom: 6rem;
+  text-align: center;
+  color: #fff;
+  background-image: url("../assets/img/header-bg.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+}
+header.masthead .masthead-subheading {
+  font-size: 1.5rem;
+  font-style: italic;
+  line-height: 1.5rem;
+  margin-bottom: 25px;
+  text-shadow: 0 2px 3px rgba(0,0,0,.5);
+  font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  
+}
+header.masthead .masthead-heading {
+  font-size: 3.25rem;
+  font-weight: 700;
+  line-height: 3rem;
+  margin-bottom: 1rem;
+  text-shadow: 0 2px 6px rgba(0,0,0,.65);
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+header.masthead .btn {
+  margin-bottom: 1em;
+}
+
+@media (min-width: 768px) {
+  header.masthead {
+    padding-top: 25rem;
+  }
+  header.masthead .masthead-subheading {
+    font-size: 2.25rem;
+    font-style: italic;
+    line-height: 2.25rem;
+    margin-bottom: 2rem;
+  }
+  header.masthead .masthead-heading {
+    font-size: 4.5rem;
+    font-weight: 700;
+    line-height: 4.5rem;
+    margin-bottom: 2rem;
+  }
+}
+
+
+
+
+/********************************************************
+    FEATURES
+ ********************************************************/
+ #features {
+  background-color: #faf0ea;
+  color: #90C740;
+}
+
+
+/********************************************************
+    ABOUT
+ ********************************************************/
+ #about {
+  background-color: #faf0ea;
+  color: #0572BA;
+}
+
+
+/********************************************************
+    WALLETS
+ ********************************************************/
+#wallets {
+  background-color: #060b18;
+  background-image: url("../assets/img/bg-wallets.jpg");
+  background-repeat: no-repeat;
+  background-position: top center;
+  color: #ffffff;
+  font-size: 90%;
+}
+
+#wallets h2,
+#wallets h3 {
+  text-shadow: 0 3px 1px rgba(0,0,0,1);
+}
+
+#wallets h4 {
+  font-size: 1em;
+  margin-top: .5em;
+}
+
+#wallets .wallet-os {
+  font-family: sans-serif;
+  text-align: center;
+  padding: 1em;
+  margin-bottom: 1em;
+  background-color: transparent;
+  background-image: url("../assets/img/1px/1px_black_75a.png");
+  border-radius: 0.5em;
+  -moz-border-radius: 0.5em;
+  -webkit-border-radius: 0.5em;
+}
+
+#wallets .wallet-info,
+#wallets .wallet-download,
+#wallets .wallet-github,
+#wallets .wallet-explorer {
+  display: block;
+  font-family: sans-serif;
+  text-align: center;
+  padding: 0.25em;
+  margin-top: 1em;
+  background-color: #0572BA;
+  background-image: url("../assets/img/1px/1px_black_25a.png");
+  text-decoration: none;
+  color: #fff;
+  border-radius: 0.35em;
+  -moz-border-radius: 0.35em;
+  -webkit-border-radius: 0.35em;
+}
+#wallets .wallet-download:hover {
+  background-color: #90C740;
+}
+
+#wallets .wallet-github { background-color: #90C740; }
+#wallets .wallet-github:hover { background-color: #0572BA; }
+
+#wallets .wallet-explorer img,
+#wallets .wallet-github img {
+  display: block;
+  width: 25px;
+  margin: .25em auto .25em auto;
+}
+
+#wallets .wallet-explorer { background-color: #2B378B; }
+#wallets .wallet-explorer:hover { background-color: #0572BA; }
+
+
+#wallets .wallet-info { padding: 0.5em; background-color: #fed136; }
+#wallets .wallet-info:hover { background-color: #90C740; }
+
+
+
+#wallets table {width: 100%;}
+#wallets .wallet-info {
+  font-weight: bold;
+}
+
+#wallets .wallet-version {
+  text-align: center;
+  font-weight: bold;
+}
+
+#wallets .wallet-description {
+  font-size: 85%;
+}
+
+@media (min-width: 768px) {
+  #wallets {
+    font-size: 100%;
+  }
+  #wallets .wallet-info td {
+    text-align: left;
+  }
+  #wallets .wallet-explorer,
+  #wallets .wallet-github {
+    padding: .75em;
+  }
+  #wallets .wallet-explorer img,
+  #wallets .wallet-github img {
+    display: inline;
+    margin: -5px auto 0 auto;
+  }
+  
+  #wallets h4 {
+    font-size: 1.5em;
+    margin-top: .25em;
+  }
+}
+
+
+/********************************************************
+    ROADMAP
+ ********************************************************/
+
+#roadmap {
+  background-color: #faf0ea;
+}
+
+.timeline {
+  position: relative;
+  padding: 0;
+  list-style: none;
+}
+.timeline:before {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 40px;
+  width: 2px;
+  margin-left: -1.5px;
+  content: "";
+  background-color: #dadaca;
+}
+.timeline > li {
+  position: relative;
+  min-height: 50px;
+  margin-bottom: 50px;
+}
+.timeline > li:after, .timeline > li:before {
+  display: table;
+  content: " ";
+}
+.timeline > li:after {
+  clear: both;
+}
+.timeline > li .timeline-panel {
+  position: relative;
+  float: right;
+  width: 100%;
+  padding: 0 20px 0 100px;
+  text-align: left;
+}
+.timeline > li .timeline-panel:before {
+  right: auto;
+  left: -15px;
+  border-right-width: 15px;
+  border-left-width: 0;
+}
+.timeline > li .timeline-panel:after {
+  right: auto;
+  left: -14px;
+  border-right-width: 14px;
+  border-left-width: 0;
+}
+.timeline > li .timeline-image {
+  position: absolute;
+  z-index: 100;
+  left: 0;
+  width: 80px;
+  height: 80px;
+  margin-left: 0;
+  text-align: center;
+  color: white;
+  border: 7px solid #e9ecef;
+  border-radius: 100%;
+  background-color: #0572BA;
+}
+.timeline > li .timeline-image h4 {
+  font-size: 10px;
+  line-height: 14px;
+  margin-top: 12px;
+}
+.timeline > li.timeline-inverted > .timeline-panel {
+  float: right;
+  padding: 0 20px 0 100px;
+  text-align: left;
+}
+.timeline > li.timeline-inverted > .timeline-panel:before {
+  right: auto;
+  left: -15px;
+  border-right-width: 15px;
+  border-left-width: 0;
+}
+.timeline > li.timeline-inverted > .timeline-panel:after {
+  right: auto;
+  left: -14px;
+  border-right-width: 14px;
+  border-left-width: 0;
+}
+.timeline > li:last-child {
+  margin-bottom: 0;
+}
+.timeline .timeline-heading h4 {
+  margin-top: 0;
+  color: inherit;
+  font-size: 1.1rem;
+}
+.timeline .timeline-heading h4.subheading {
+  text-transform: none;
+}
+.timeline .timeline-body > ul,
+.timeline .timeline-body > p {
+  margin-bottom: 0;
+}
+
+@media (min-width: 768px) {
+  .timeline .timeline-heading h4 {
+    font-size: 1.75rem;
+  }
+
+  .timeline:before {
+    left: 50%;
+  }
+  .timeline > li {
+    min-height: 100px;
+  }
+  .timeline > li .timeline-panel {
+    float: left;
+    width: 41%;
+    padding: 0 20px 20px 30px;
+    text-align: right;
+  }
+  .timeline > li .timeline-image {
+    left: 50%;
+    width: 100px;
+    height: 100px;
+    margin-left: -50px;
+  }
+  .timeline > li .timeline-image h4 {
+    font-size: 13px;
+    line-height: 18px;
+    margin-top: 16px;
+  }
+  .timeline > li.timeline-inverted > .timeline-panel {
+    float: right;
+    padding: 0 30px 20px 20px;
+    text-align: left;
+  }
+}
+@media (min-width: 992px) {
+  .timeline > li {
+    min-height: 150px;
+  }
+  .timeline > li .timeline-panel {
+    padding: 0 20px 20px;
+  }
+  .timeline > li .timeline-image {
+    width: 150px;
+    height: 150px;
+    margin-left: -75px;
+  }
+  .timeline > li .timeline-image h4 {
+    font-size: 18px;
+    line-height: 26px;
+    margin-top: 30px;
+  }
+  .timeline > li.timeline-inverted > .timeline-panel {
+    padding: 0 20px 20px;
+  }
+}
+@media (min-width: 1200px) {
+  .timeline > li {
+    min-height: 170px;
+  }
+  .timeline > li .timeline-panel {
+    padding: 0 20px 20px 100px;
+  }
+  .timeline > li .timeline-image {
+    width: 170px;
+    height: 170px;
+    margin-left: -85px;
+  }
+  .timeline > li .timeline-image h4 {
+    margin-top: 40px;
+  }
+  .timeline > li.timeline-inverted > .timeline-panel {
+    padding: 0 100px 20px 20px;
+  }
+}
+
+
+
+
+
+
+
+/********************************************************
+    EXCHANGES
+ ********************************************************/
+#exchanges {
+  background-color: #115500;
+  background-image: url("../assets/img/bg-exchanges.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #ffffff;
+}
+
+#exchanges h2,
+#exchanges h3 {
+  text-shadow: 0 3px 1px rgba(0,0,0,1);
+  -moz-text-shadow: 0 3px 1px rgba(0,0,0,1);
+  -webkit-text-shadow: 0 3px 1px rgba(0,0,0,1);
+}
+
+#exchanges .exchange {
+  font-family: sans-serif;
+  text-align: center;
+  padding: 1em;
+  margin-bottom: 1em;
+  background-color: transparent;
+  background-image: url("../assets/img/1px/1px_black_75a.png");
+  border-radius: 0.5em;
+  -moz-border-radius: 0.5em;
+  -webkit-border-radius: 0.5em;
+}
+
+
+
+
+
+
+
+/********************************************************
+    TEAM
+ ********************************************************/
+#team {
+  background-color: #faf0ea;
+}
+ .team-member {
+  margin-bottom: 3rem;
+  text-align: center;
+}
+.team-member img {
+  width: 14rem;
+  height: 14rem;
+  border: 0.5rem solid rgba(0, 0, 0, 0.1);
+}
+.team-member h4 {
+  margin-top: 1.5rem;
+  margin-bottom: 0;
+}
+
+
+
+
+/********************************************************
+    COMMUNITY
+ ********************************************************/
+#community {
+  color: #fff;
+  background-color: #000;
+  background-image: url("../assets/img/bg-community.jpg");
+  background-repeat: no-repeat;
+  background-position: center -150px;
+}
+
+#community h2,
+#community h3 {
+  color: #fff;
+  text-shadow: 0 3px 1px rgba(0,0,0,1);
+  -moz-text-shadow: 0 3px 1px rgba(0,0,0,1);
+  -webkit-text-shadow: 0 3px 1px rgba(0,0,0,1);
+}
+
+#community .community {
+  font-family: sans-serif;
+  text-align: center;
+  padding: 1em;
+  margin-bottom: 1em;
+  background-color: transparent;
+  background-image: url("../assets/img/1px/1px_black_50a.png");
+  border-radius: 0.5em;
+  -moz-border-radius: 0.5em;
+  -webkit-border-radius: 0.5em;
+}
+
+#community .community p {
+  text-align: justify;
+  color: #fff;
+  line-height: 150%;
+}
+
+
+
+
+.panel {
+  padding: 1em;
+  background-color: transparent;
+  background-image: url("../assets/img/1px/1px_black_25a.png");
+  border-radius: 0.5em;
+  -moz-border-radius: 0.5em;
+  -webkit-border-radius: 0.5em;
+}
+
+@media (min-width: 768px) {
+  .panel {
+    padding: 1em;
+    background-color: transparent;
+    background-image: url("../assets/img/1px/1px_black_12a.png");
+    border-radius: 0.5em;
+    -moz-border-radius: 0.5em;
+    -webkit-border-radius: 0.5em;
+  }
+}
+
+
+
+
+
+
+/********************************************************
+    PARNTERS
+ ********************************************************/
+ #partners {
+  color: #fff;
+  background-color: #000;
+  background-image: url("../assets/img/bg-partners.jpg");
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+
+#partners .partner {
+  font-family: sans-serif;
+  padding: 1em;
+  margin-bottom: 1em;
+  background-color: transparent;
+  background-image: url("../assets/img/1px/1px_black_75a.png");
+  border-radius: 0.5em;
+  -moz-border-radius: 0.5em;
+  -webkit-border-radius: 0.5em;
+}
+
+#partners .partner ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#partners .partner table td {
+  vertical-align: top;
+}
+
+
+
+
+
+section#contact form#contactForm .form-group {
+  margin-bottom: 1.5rem;
+}
+section#contact form#contactForm .form-group input,
+section#contact form#contactForm .form-group textarea {
+  padding: 1.25rem;
+}
+section#contact form#contactForm .form-group input.form-control {
+  height: auto;
+}
+section#contact form#contactForm .form-group-textarea {
+  height: 100%;
+}
+section#contact form#contactForm .form-group-textarea textarea {
+  height: 100%;
+  min-height: 10rem;
+}
+section#contact form#contactForm p.help-block {
+  margin: 0;
+}
+section#contact form#contactForm .form-control:focus {
+  border-color: #fed136;
+  box-shadow: none;
+}
+section#contact form#contactForm ::-webkit-input-placeholder {
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 700;
+  color: #ced4da;
+}
+section#contact form#contactForm :-moz-placeholder {
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 700;
+  color: #ced4da;
+}
+section#contact form#contactForm ::-moz-placeholder {
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 700;
+  color: #ced4da;
+}
+section#contact form#contactForm :-ms-input-placeholder {
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 700;
+  color: #ced4da;
+}
+
+.footer {
+  text-align: center;
+  font-size: 0.9rem;
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/********************************************************
+    MODALS
+ ********************************************************/
+
+.dotdotdot {
+  display: block;
+  font-size: 200%;
+  color: #c0c0c0;
+  margin: 1em auto;
+}
+
+span.code {
+  display: inline-block;
+}
+
+.code {
+  background-color: #222;
+  color: #90C740;
+  padding: .75em;
+  font-size: 85%;
+  font-weight: bold;
+  margin-bottom: .25em;
+  border-radius: 0.5em;
+  font-family: 'Courier New', Courier, monospace;
+  overflow-x: auto;
+}
+
+.popup-modal .modal-dialog {
+  margin: 2em auto;
+  max-width: 1000px;
+}
+.popup-modal .modal-content {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+.popup-modal .modal-content h2 {
+  font-size: 3rem;
+  line-height: 3rem;
+}
+.popup-modal .modal-content h4 {
+  font-size: 2.2em;
+  color: #2B378B;
+}
+.popup-modal .modal-content h5 {
+  margin-top: 1.5em;
+}
+.popup-modal .modal-content p.item-intro {
+  font-style: italic;
+  margin: 2rem auto;
+  max-width: 500px;
+  font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.popup-modal .modal-content p {
+  margin-bottom: 1rem;
+}
+.popup-modal .modal-content ul.list-inline {
+  margin-bottom: 2rem;
+}
+.popup-modal .modal-content img {
+  margin-bottom: 2rem;
+}
+.popup-modal .close-modal {
+  position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
+  width: 3rem;
+  height: 3rem;
+  cursor: pointer;
+  background-color: transparent;
+}
+.popup-modal .close-modal:hover {
+  opacity: 0.3;
+}
+
+
+
+.modal {
+  font-size: 90%;
+}
+
+@media (min-width: 768px) {
+  .modal {
+    font-size: 100%;
+  }  
+}
